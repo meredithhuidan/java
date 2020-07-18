@@ -35,6 +35,7 @@ public class AopLog {
     }
 
     //如果调用方法抛出异常，不会执行后面代码
+    //环绕通知在方法之前和之后处理事情
     @Around("execution(* cn.meredith.day17.UserService.add())")
     public void around(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
 
