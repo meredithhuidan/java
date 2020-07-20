@@ -17,6 +17,8 @@ public @interface AddAnnotation {
 
     //手写spring事务注解
     int userId() default 0;
+
     String userName() default "默认名称";
+
     String[] arrays();
 }

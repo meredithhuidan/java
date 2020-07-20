@@ -44,26 +44,26 @@ public class AopExtTransaction {
 
 
         //1、获取代理对象的方法
-        ExtTransactional extTransactional=getMethodExtTransaction(proceedingJoinPoint);
+        ExtTransactional extTransactional = getMethodExtTransaction(proceedingJoinPoint);
         //2、获取该方法上是否存在注解 ,如果存在事务注解，开启事务
-        TransactionStatus transactionStatus=begin(extTransactional);
+        TransactionStatus transactionStatus = begin(extTransactional);
         //4、调用目标代理对象方法
         proceedingJoinPoint.proceed();
         //5、判断该方法上是否存在注解
         commit(transactionStatus);
     }
 
-    private void commit(TransactionStatus transactionStatus){
+    private void commit(TransactionStatus transactionStatus) {
         //5、判断该方法上是否存在注解
 //        if (extTransactional!=null){ //通过事务判断不太好
         //通过状态判断
-        if (transactionStatus!=null){
+        if (transactionStatus != null) {
             //6、如果存在注解，提交事务
             transactionUtils1.commit(transactionStatus);
         }
     }
 
-    private TransactionStatus begin(ExtTransactional extTransactional){
+    private TransactionStatus begin(ExtTransactional extTransactional) {
         //2、获取该方法上是否存在注解
         if (extTransactional == null) {
             return null;
@@ -77,14 +77,14 @@ public class AopExtTransaction {
     private ExtTransactional getMethodExtTransaction(ProceedingJoinPoint proceedingJoinPoint) throws NoSuchMethodException {
         //1、获取代理对象的方法
         //获取方法名称
-        String methodName=proceedingJoinPoint.getSignature().getName();
+        String methodName = proceedingJoinPoint.getSignature().getName();
         //获取目标对象
-        Class classTarget=proceedingJoinPoint.getTarget().getClass();
+        Class classTarget = proceedingJoinPoint.getTarget().getClass();
         //获取目标对象类型
-        Class[] par=((MethodSignature)proceedingJoinPoint.getSignature()).getParameterTypes();
+        Class[] par = ((MethodSignature) proceedingJoinPoint.getSignature()).getParameterTypes();
         //获取目标对象方法
-        Method objMethod=classTarget.getMethod(methodName,par);
-        ExtTransactional extTransactional=objMethod.getDeclaredAnnotation(ExtTransactional.class);
+        Method objMethod = classTarget.getMethod(methodName, par);
+        ExtTransactional extTransactional = objMethod.getDeclaredAnnotation(ExtTransactional.class);
         return extTransactional;
     }
 }

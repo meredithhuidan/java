@@ -5,7 +5,6 @@ import java.util.Date;
 
 /**
  * 简单注解的了解
- *
  */
 public class Test002 {
 
