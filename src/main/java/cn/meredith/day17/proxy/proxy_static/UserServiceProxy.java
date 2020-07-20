@@ -1,6 +1,6 @@
 package cn.meredith.day17.proxy.proxy_static;
 
-import cn.meredith.day17.UserService;
+import cn.meredith.day17.service.UserService;
 
 /**
  * 静态代理设计模式

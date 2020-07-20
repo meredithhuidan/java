@@ -7,8 +7,182 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e9f6b3a-58f1-467e-a1b6-ae26f5b794e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day18/Test001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day18/Test002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day18/annotation/AddAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day18/annotation/ExtTransactional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day18/annotation/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day18/aop/AopExtTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day18/dao/UserDao1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day18/service/UserService1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day18/service/impl/UserServiceImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day18/transaction/TransactionUtils1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/Test002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/Test002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/aop/AopLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/aop/AopLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/aop/AopTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/aop/AopTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_dynamic/InvocationHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_dynamic/InvocationHandlerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_static/Test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_static/Test001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_static/UserServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_static/UserServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day02/CreateRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day02/CreateRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day02/CreateTread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day02/CreateTread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day02/DaemonThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day02/DaemonThread$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day02/DaemonThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day02/DaemonThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day02/Thread004$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day02/Thread004$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day02/Thread004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day02/Thread004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day02/Thread005$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day02/Thread005$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day02/Thread005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day02/Thread005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day02/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day02/ThreadDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day02/ThreadDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day02/ThreadDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day02/ThreadDemo3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day02/ThreadDemo3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day02/ThreadDemo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day02/ThreadDemo3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Res$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Res$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Res.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Res.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test006.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test006.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test007.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test007.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test008.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/Test008.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day03/ThreadDemo8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day04/InputThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day04/InputThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day04/IntThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day04/IntThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day04/IntThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day04/IntThread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day04/OutThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day04/OutThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day04/OutThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day04/OutThread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day04/OutputThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day04/OutputThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day04/ReorderExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day04/ReorderExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day04/Res.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day04/Res.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day04/Res1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day04/Res1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day04/Ress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day04/Ress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day04/Test001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day04/Test001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day04/Test002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day04/Test002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day04/ThreadLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day04/ThreadLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/ConsumerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/ConsumerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/ProducerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/ProducerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/TaskThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/TaskThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test004$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test004$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test005$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test005$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test006$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test006$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test006.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test006.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test007$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test007$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test007.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test007.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test008.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day05/Test008.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day06/TaskFuture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day06/TaskFuture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day06/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day06/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day06/Test001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day06/Test001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day06/Test002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day06/Test002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day06/Test003$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day06/Test003$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day06/Test003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day06/Test003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day06/future/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day06/future/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day06/future/FutureClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day06/future/FutureClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day06/future/FutureClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day06/future/FutureClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day06/future/FutureData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day06/future/FutureData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day06/future/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day06/future/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day06/future/RealData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day06/future/RealData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test003$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test003$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test003$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test003$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day07/Test005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day08/consumer/LongEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day08/consumer/LongEventHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day08/consumer/LongEventHandler2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day08/consumer/LongEventHandler2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day08/entity/LongEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day08/entity/LongEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day08/factory/LongEventFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day08/factory/LongEventFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day08/producer/LongEventProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day08/producer/LongEventProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day08/producer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day08/producer/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day09/HttpEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day09/HttpEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day09/SingletonDemo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day09/SingletonDemo01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day09/SingletonDemo02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day09/SingletonDemo02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day09/SingletonDemo03$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day09/SingletonDemo03$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day09/SingletonDemo03$SingletonClassInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day09/SingletonDemo03$SingletonClassInstance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day09/SingletonDemo03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day09/SingletonDemo03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day09/SingletonDemo04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day09/SingletonDemo04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day09/User$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day09/User$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day09/User$SingletonUserEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day09/User$SingletonUserEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day09/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day09/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day09/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day09/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/CarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/CarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/Chair.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/Chair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/ChairA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/ChairA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/ChairB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/ChairB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/EngineA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/EngineA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/EngineB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/EngineB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/JiLiFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/abstractfactory/JiLiFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/cglibproxy/CglibProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/cglibproxy/CglibProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/cglibproxy/UserDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/cglibproxy/UserDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/ByCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/ByCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/ByFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/ByFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/CarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/CarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/JiLiCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/JiLiCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/JiLiFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/factorymethod/JiLiFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/jdkproxy/InvocationHandlerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/jdkproxy/InvocationHandlerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/proxy/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/proxy/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/proxy/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/proxy/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/proxy/UserDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/proxy/UserDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/proxy/UserDaoProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/proxy/UserDaoProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/simplefactory/ByCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/simplefactory/ByCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/simplefactory/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/simplefactory/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/simplefactory/CarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/simplefactory/CarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/simplefactory/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/simplefactory/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day10/simplefactory/JiLiCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day10/simplefactory/JiLiCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/AdaptorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/AdaptorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/CN220VInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/CN220VInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/CN220VInterfaceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/CN220VInterfaceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/ElectricCooker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/ElectricCooker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/JP110VInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/JP110VInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/JP110VInterfaceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/JP110VInterfaceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/PowerAdaptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/adaptor/PowerAdaptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/builder/JPBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/builder/JPBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/builder/ManBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/builder/ManBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/builder/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/builder/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/builder/PersonBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/builder/PersonBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/builder/PersonDirector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/builder/PersonDirector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/EamilSmsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/EamilSmsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/EamilSmsServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/EamilSmsServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/SmMsgService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/SmMsgService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/SmMsgServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/SmMsgServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/WeiXinMsgService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/WeiXinMsgService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/WeiXinMsgServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/facade/WeiXinMsgServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/modelmethod/ClientTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/modelmethod/ClientTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/modelmethod/LianTong.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/modelmethod/LianTong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/modelmethod/MsgTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/modelmethod/MsgTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day11/modelmethod/YiDong.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day11/modelmethod/YiDong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day12/clone/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day12/clone/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day12/clone/ClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day12/clone/ClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/Strategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/Strategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/Strategy01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/Strategy01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/StrategyA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/StrategyA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/StrategyB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/StrategyB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/StrategyC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/StrategyC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/StrategyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/meredith/day12/strategy/StrategyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,10 +198,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/dao/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/Test001.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="369">
+              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,10 +210,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/UserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/annotation/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="467">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/annotation/ExtTransactional.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,26 +231,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/transaction/TransactionUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/transaction/TransactionUtils1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/Test002.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="336">
+              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -75,8 +242,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/aop/AopTransaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="253">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/aop/AopExtTransaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="673">
+              <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,7 +266,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/aop/AopLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
+            <state relative-caret-position="392">
               <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,29 +275,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/service/impl/UserServiceImpl1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_static/UserServiceProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_dynamic/InvocationHandlerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-196">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="341">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,12 +297,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_static/Test001.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/Test002.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="448">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,6 +317,7 @@
       <list>
         <option value="HTTP Request" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -161,23 +334,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day12/clone/ClientTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day12/strategy/Strategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day12/strategy/StrategyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day12/decorate/House.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day12/decorate/HouseDecorate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day12/decorate/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day12/decorate/HouseDecorateImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day12/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day12/ClientTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day12/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day13/Test001.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day14/Test001.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day14/Test002.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day14/Test003.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day14/Test004.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day14/Test005.java" />
-        <option value="$PROJECT_DIR$/IndexSevlet/src/cn/meredith/day14/dad.http" />
         <option value="$PROJECT_DIR$/IndexSevlet/pom.xml" />
         <option value="$PROJECT_DIR$/IndexSevlet/src/cn/meredith/day14/IndexSevlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day14/IndexServlet.java" />
@@ -206,12 +362,29 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_static/UserServiceProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day17/aop/Test002.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day17/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day17/transaction/TransactionUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day17/aop/AopLog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day17/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day17/aop/AopTransaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day17/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day17/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day17/Service.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day17/Test002.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day17/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/annotation/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/annotation/AddAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/Test001.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/Test002.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/transaction/TransactionUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/transaction/TransactionUtils1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/aop/AopExtTransaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/annotation/ExtTransactional.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/service/impl/UserServiceImpl1.java" />
       </list>
     </option>
   </component>
@@ -236,8 +409,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="971" />
-    <option name="width" value="956" />
+    <option name="x" value="676" />
+    <option name="width" value="1113" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -247,6 +420,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,8 +493,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="meredith" type="462c0819:PsiDirectoryNode" />
-              <item name="day17" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="day18" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -329,8 +503,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="meredith" type="462c0819:PsiDirectoryNode" />
-              <item name="day17" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="day18" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -340,9 +514,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="meredith" type="462c0819:PsiDirectoryNode" />
-              <item name="day17" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy_dynamic" type="462c0819:PsiDirectoryNode" />
+              <item name="day18" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -352,9 +525,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="meredith" type="462c0819:PsiDirectoryNode" />
-              <item name="day17" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy_static" type="462c0819:PsiDirectoryNode" />
+              <item name="day18" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -364,7 +536,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="meredith" type="462c0819:PsiDirectoryNode" />
-              <item name="day17" type="462c0819:PsiDirectoryNode" />
+              <item name="day18" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="meredith" type="462c0819:PsiDirectoryNode" />
+              <item name="day18" type="462c0819:PsiDirectoryNode" />
               <item name="transaction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -378,8 +562,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,16 +587,21 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.meredith.day14" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.meredith.day14" />
-      <recent name="cn.meredith.day10.cglibproxy" />
-      <recent name="cn.meredith.day10.factorymethod" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Java_project\WrokSpace\thread_demo\src\main\resources" />
       <recent name="E:\Java_project\WrokSpace\thread_demo\src\main\webapp" />
       <recent name="E:\Java_project\WrokSpace\thread_demo\IndexSevlet" />
       <recent name="E:\Java_project\WrokSpace\thread_demo\src\main\java\cn\meredith\day10\factorymethod" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.meredith.day18.transaction" />
+      <recent name="cn.meredith.day17" />
+      <recent name="cn.meredith.day18.dao" />
+      <recent name="cn.meredith.day18.service.impl" />
+      <recent name="cn.meredith.day18" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.meredith.day17" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -429,39 +616,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test002">
-    <configuration name="Hotswap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.meredith.day16.Hotswap" />
-      <module name="thread_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.meredith.day16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvocationHandlerImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.meredith.day17.proxy.proxy_dynamic.InvocationHandlerImpl" />
-      <module name="thread_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.meredith.day17.proxy.proxy_dynamic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test001 (1)">
     <configuration name="Test001 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.meredith.day16.Test001" />
+      <option name="MAIN_CLASS_NAME" value="cn.meredith.day18.Test001" />
       <module name="thread_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.meredith.day16.*" />
+          <option name="PATTERN" value="cn.meredith.day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -474,6 +635,32 @@
       <module name="thread_demo" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="cn.meredith.day17.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.meredith.day18.Test001" />
+      <module name="thread_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.meredith.day17.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test002 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.meredith.day17.Test002" />
+      <module name="thread_demo" />
+      <extension name="coverage">
+        <pattern>
           <option name="PATTERN" value="cn.meredith.day17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
@@ -483,11 +670,24 @@
       </method>
     </configuration>
     <configuration name="Test002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.meredith.day17.Test002" />
+      <option name="MAIN_CLASS_NAME" value="cn.meredith.day18.Test002" />
       <module name="thread_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.meredith.day17.*" />
+          <option name="PATTERN" value="cn.meredith.day18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.meredith.day18.annotation.User" />
+      <module name="thread_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.meredith.day18.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -633,20 +833,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test001 (1)" />
-      <item itemvalue="Application.Hotswap" />
       <item itemvalue="Application.Test001" />
-      <item itemvalue="Application.InvocationHandlerImpl" />
       <item itemvalue="Application.Test002" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
+      <item itemvalue="Application.Test002 (1)" />
+      <item itemvalue="Application.User" />
+      <item itemvalue="Application.Test001 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test002" />
-        <item itemvalue="Application.InvocationHandlerImpl" />
-        <item itemvalue="Application.Test001" />
-        <item itemvalue="Application.Hotswap" />
         <item itemvalue="Application.Test001 (1)" />
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.Test002" />
+        <item itemvalue="Application.Test001" />
+        <item itemvalue="Application.Test001" />
       </list>
     </recent_temporary>
   </component>
@@ -677,12 +877,13 @@
       <workItem from="1594776573352" duration="15930000" />
       <workItem from="1594865877680" duration="9527000" />
       <workItem from="1594949606419" duration="19542000" />
-      <workItem from="1595054972912" duration="4920000" />
+      <workItem from="1595054972912" duration="8013000" />
+      <workItem from="1595209012868" duration="12998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200247000" />
+    <option name="totallyTimeSpent" value="216338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -694,10 +895,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="971" y="0" width="956" height="1087" extended-state="0" />
+    <frame x="676" y="25" width="928" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17281106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -707,7 +908,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49215245" weight="0.23819517" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49215245" visible="true" weight="0.23714586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28856245" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -715,9 +916,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843652" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32843652" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32843652" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32843652" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50784755" side_tool="true" weight="0.23819517" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49327356" weight="0.32843652" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49327356" weight="0.32528856" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32843652" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32948583" />
       <window_info anchor="bottom" id="Spring" order="15" />
@@ -731,6 +932,41 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14300203" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49215245" visible="true" weight="0.23714586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28856245" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843652" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32843652" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32843652" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50784755" side_tool="true" weight="0.23819517" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49327356" weight="0.32528856" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32843652" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32948583" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32965165" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -776,64 +1012,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day14/Test002.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/IndexSevlet/src/cn/meredith/day14/dad.http" />
-    <entry file="file://$PROJECT_DIR$/IndexSevlet/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/IndexSevlet/src/cn/meredith/day14/IndexSevlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day14/IndexServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day14/Test003.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day14/Test004.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JAVA SE/jdk1.8.0_191/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2436">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JAVA SE/jdk1.8.0_191/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="110" column="10" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day12/clone/ClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread_demo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day04/Test002.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -1034,20 +1212,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_static/Test001.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1058,13 +1222,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/Service.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="112">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1316">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_static/UserServiceProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_dynamic/InvocationHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/dao/UserDao1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1078,20 +1274,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/transaction/TransactionUtils.java">
+    <entry file="jar://E:/JAVA SE/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="414">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/transaction/TransactionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="37" column="5" selection-start-line="34" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
             <element signature="e#962#963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA SE/jdk1.8.0_191/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5759">
+          <caret line="452" column="15" selection-start-line="452" selection-start-column="15" selection-end-line="452" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/annotation/AddAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/service/UserService1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/annotation/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/Test002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/aop/AopTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/aop/AopLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
+        <state relative-caret-position="392">
           <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1099,47 +1373,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/Test001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="369">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/aop/AopTransaction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/annotation/ExtTransactional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="476">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_static/UserServiceProxy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/aop/AopExtTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/proxy/proxy_dynamic/InvocationHandlerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="673">
+          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/transaction/TransactionUtils1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        <state relative-caret-position="336">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/service/impl/UserServiceImpl1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

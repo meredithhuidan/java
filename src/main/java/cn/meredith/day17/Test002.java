@@ -1,6 +1,6 @@
 package cn.meredith.day17;
 
-import cn.meredith.day17.UserService;
+import cn.meredith.day17.service.UserService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test002 {

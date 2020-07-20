@@ -1,7 +1,7 @@
 package cn.meredith.day17.proxy.proxy_static;
 
-import cn.meredith.day17.UserService;
-import cn.meredith.day17.UserServiceImpl;
+import cn.meredith.day17.service.UserService;
+import cn.meredith.day17.service.impl.UserServiceImpl;
 
 public class Test001 {
 

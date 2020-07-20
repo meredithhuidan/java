@@ -1,4 +1,4 @@
-package cn.meredith.day17;
+package cn.meredith.day17.service;
 
 /**
  * user 服务层

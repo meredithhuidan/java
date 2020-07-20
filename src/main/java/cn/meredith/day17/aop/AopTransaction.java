@@ -23,7 +23,7 @@ public class AopTransaction {
     @Autowired
     private TransactionUtils transactionUtils;
 
-    @AfterThrowing("execution(* cn.meredith.day17.UserService.add())")
+    @AfterThrowing("execution(* cn.meredith.day17.service.UserService.add())")
     public void afterThrowing() {
         System.out.println("回滚事务");
         //获取当前事务 直接回滚
@@ -33,7 +33,7 @@ public class AopTransaction {
 
 
     //如果调用方法抛出异常，不会执行后面代码
-    @Around("execution(* cn.meredith.day17.UserService.add())")
+    @Around("execution(* cn.meredith.day17.service.UserService.add())")
     public void around(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
 
         System.out.println("开启事务");
