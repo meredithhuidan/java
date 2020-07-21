@@ -30,7 +30,7 @@ public class UserServiceImpl1 implements UserService1 {
         //调用接口的时候，调用接口失败，需要回滚 但日志记录不需要回滚
         logService.addLog();
         userDao.add("test001", 20);
-        int i = 1 / 0;
+//        int i = 1 / 0;
         System.out.println("############");
         userDao.add("test002", 30);
 //        }catch (Exception e){
@@ -44,5 +44,8 @@ public class UserServiceImpl1 implements UserService1 {
     }
     //方法执行完毕之后，才会提交事务
 
+    private UserServiceImpl1(){
+        System.out.println("无参构造函数初始化....反射技术");
+    }
 
 }
