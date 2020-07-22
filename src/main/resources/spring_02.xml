@@ -12,7 +12,7 @@
 
 
     <!--xml方式注入bean-->
-    <bean id="userService" class="cn.meredith.day18.service.impl.UserServiceImpl1"></bean>
+    <bean id="userService3" class="cn.meredith.day19.service.impl.UserService3Impl3"></bean>
 
 </beans>
 
