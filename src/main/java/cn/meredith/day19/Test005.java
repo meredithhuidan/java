@@ -1,6 +1,5 @@
 package cn.meredith.day19;
 
-import cn.meredith.day17.service.UserService;
 import cn.meredith.day19.service.UserService3;
 import cn.meredith.day19.spring.ext.ExtClassPathXmlApplicationContext1;
 
