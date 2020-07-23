@@ -187,4 +187,29 @@ public class ClassUtil {
             }
         }
     }
+
+    /**
+     * 首字母转小写
+      * @param s
+     * @return
+     */
+    public static String toLowerCaseFirstOne(String s) {
+        if (Character.isLowerCase(s.charAt(0)))
+            return s;
+        else
+            return (new StringBuilder()).append(Character.toLowerCase(s.charAt(0))).append(s.substring(1)).toString();
+    }
+
+    /**
+     * 初始化对象
+     * @param classInfo
+     * @return
+     * @throws ClassNotFoundException
+     * @throws InstantiationException
+     * @throws IllegalAccessException
+     */
+    public static Object newInstance(Class<?> classInfo)
+            throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+        return classInfo.newInstance();
+    }
 }

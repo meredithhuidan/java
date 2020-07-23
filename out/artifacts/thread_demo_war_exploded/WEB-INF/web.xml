@@ -6,14 +6,14 @@
     <!-- Spring MVC 核心控制器 DispatcherServlet 配置 -->
     <servlet>
         <!--servlet名称-->
-        <servlet-name>IndexServlet</servlet-name>
-        <servlet-class>cn.meredith.day20.IndexServlet
+        <servlet-name>ExtDispatcherServlet</servlet-name>
+        <servlet-class>cn.meredith.day20.springmvc.servlet.ExtDispatcherServlet
         </servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>IndexServlet</servlet-name>
+        <servlet-name>ExtDispatcherServlet</servlet-name>
         <!--servlet请求地址-->
-        <url-pattern>/IndexServlet</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 </web-app>
