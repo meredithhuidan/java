@@ -8,12 +8,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e9f6b3a-58f1-467e-a1b6-ae26f5b794e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day21/Test001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/ConnectionPoolImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/ConnectionPoolManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/DbBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/JdbcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/Test001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/Test002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/annotation/ExtInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/annotation/ExtParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/annotation/ExtSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/aop/MyInvocationHandlerMybatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/sql/SqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/util/SQLUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,149 +51,115 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/util/JDBCUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar!/com/mysql/cj/jdbc/NonRegisteringDriver.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="e#3534#3535#0" expanded="true" />
+                <element signature="e#3582#3583#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar!/com/mysql/cj/conf/ConnectionUrl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/aop/MyInvocationHandlerMybatis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="89" column="35" lean-forward="true" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/Test002.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/JAVA SE/jdk1.8.0_191/src.zip!/java/sql/ResultSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="947" column="40" selection-start-line="947" selection-start-column="40" selection-end-line="947" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-168">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day21/Test001.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="31" column="41" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="41" />
+            <state relative-caret-position="420">
+              <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#294#306#0" expanded="true" />
-                <element signature="e#403#415#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/ConnectionPoolManager.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar!/com/mysql/cj/jdbc/result/ResultSetImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-              <folding>
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="218">
+              <caret line="1734" selection-start-line="1734" selection-end-line="1734" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/DbBean.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/util/SQLUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
-              <folding>
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-                <element signature="e#909#910#0" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
-                <element signature="e#1012#1013#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-                <element signature="e#1131#1132#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
-                <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#1245#1246#0" expanded="true" />
-                <element signature="e#1285#1286#0" expanded="true" />
-                <element signature="e#1320#1321#0" expanded="true" />
-                <element signature="e#1351#1352#0" expanded="true" />
-                <element signature="e#1399#1400#0" expanded="true" />
-                <element signature="e#1439#1440#0" expanded="true" />
-                <element signature="e#1477#1478#0" expanded="true" />
-                <element signature="e#1514#1515#0" expanded="true" />
-                <element signature="e#1571#1572#0" expanded="true" />
-                <element signature="e#1623#1624#0" expanded="true" />
-                <element signature="e#1661#1662#0" expanded="true" />
-                <element signature="e#1698#1699#0" expanded="true" />
-                <element signature="e#1755#1756#0" expanded="true" />
-                <element signature="e#1807#1808#0" expanded="true" />
-                <element signature="e#1846#1847#0" expanded="true" />
-                <element signature="e#1884#1885#0" expanded="true" />
-                <element signature="e#1943#1944#0" expanded="true" />
-                <element signature="e#1997#1998#0" expanded="true" />
-                <element signature="e#2033#2034#0" expanded="true" />
-                <element signature="e#2067#2068#0" expanded="true" />
-                <element signature="e#2119#2120#0" expanded="true" />
-                <element signature="e#2165#2166#0" expanded="true" />
-                <element signature="e#2209#2210#0" expanded="true" />
-                <element signature="e#2252#2253#0" expanded="true" />
-                <element signature="e#2321#2322#0" expanded="true" />
-                <element signature="e#2385#2386#0" expanded="true" />
-                <element signature="e#2427#2428#0" expanded="true" />
-                <element signature="e#2467#2468#0" expanded="true" />
-                <element signature="e#2531#2532#0" expanded="true" />
-                <element signature="e#2589#2590#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/ConnectionPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/ConnectionPoolImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#264#276#0" expanded="true" />
-                <element signature="e#357#369#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/JAVA SE/jdk1.8.0_191/src.zip!/java/sql/DriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="235" column="29" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="104" column="36" lean-forward="true" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+            <state relative-caret-position="434">
+              <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -197,8 +171,8 @@
       <list>
         <option value="HTTP Request" />
         <option value="FxmlFile" />
-        <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -215,23 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/annotation/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/aop/AopExtTransaction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/dao/LogDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/dao/UserDao1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/service/impl/LogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/Test001.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/Test002.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/Test003.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring_02.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day19/Test001.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day18/service/impl/UserServiceImpl1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day19/Test002.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day19/ClassPathXmlApplicationContext.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day19/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day19/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring_02.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day19/Test003.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day19/ExtClassPathXmlApplicationContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day19/Test004.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day19/spring/extannotation/ExtService.java" />
@@ -256,7 +213,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day20/springmvc/controller/ExtIndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day19/util/ClassUtil.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web1.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day20/springmvc/servlet/ExtDispatcherServlet.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
@@ -266,6 +222,24 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/ConnectionPoolManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day21/Test001.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/DbBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/JdbcTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/util/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/annotation/ExtInsert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/annotation/Extparam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/Test001.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/sql/SqlSession.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/annotation/ExtParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/util/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/JdbcTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/Test001.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/annotation/ExtSelect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/util/SQLUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/aop/MyInvocationHandlerMybatis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/Test002.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/mapper/UserMapper.java" />
       </list>
     </option>
   </component>
@@ -305,8 +279,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="764" />
-    <option name="width" value="1174" />
+    <option name="x" value="813" />
+    <option name="width" value="1120" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -316,7 +290,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,24 +300,6 @@
             <path>
               <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="thread_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="thread_demo_war_exploded" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread_demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -385,7 +340,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="meredith" type="462c0819:PsiDirectoryNode" />
-              <item name="day21" type="462c0819:PsiDirectoryNode" />
+              <item name="day22" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -395,8 +350,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="meredith" type="462c0819:PsiDirectoryNode" />
-              <item name="day21" type="462c0819:PsiDirectoryNode" />
-              <item name="connection" type="462c0819:PsiDirectoryNode" />
+              <item name="day22" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -406,15 +361,69 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="meredith" type="462c0819:PsiDirectoryNode" />
-              <item name="day21" type="462c0819:PsiDirectoryNode" />
-              <item name="Test001.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="day22" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="thread_demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="meredith" type="462c0819:PsiDirectoryNode" />
+              <item name="day22" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="meredith" type="462c0819:PsiDirectoryNode" />
+              <item name="day22" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="meredith" type="462c0819:PsiDirectoryNode" />
+              <item name="day22" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="meredith" type="462c0819:PsiDirectoryNode" />
+              <item name="day22" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="meredith" type="462c0819:PsiDirectoryNode" />
+              <item name="day22" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -431,6 +440,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -439,7 +449,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/cn/meredith/day14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/util" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -458,11 +468,11 @@
       <recent name="cn.meredith.day14" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java_project\WrokSpace\thread_demo\src\main\java\cn\meredith\day22\mybatis\util" />
+      <recent name="E:\Java_project\WrokSpace\thread_demo\src\main\java\cn\meredith\day22\util" />
       <recent name="E:\Java_project\WrokSpace\thread_demo\src\main\java\cn\meredith\day21\connection" />
       <recent name="E:\Java_project\WrokSpace\thread_demo\src\main\java\webapp\WEB-INF" />
       <recent name="E:\Java_project\WrokSpace\thread_demo\src\main\resources" />
-      <recent name="E:\Java_project\WrokSpace\thread_demo\src\main\webapp" />
-      <recent name="E:\Java_project\WrokSpace\thread_demo\IndexSevlet" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.meredith.day20.springmvc.util" />
@@ -487,7 +497,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test001 (2)">
+  <component name="RunManager" selected="Application.Test002">
+    <configuration name="JdbcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.meredith.day22.mybatis.JdbcTest" />
+      <module name="thread_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.meredith.day22.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test001 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.meredith.day18.Test001" />
       <module name="thread_demo" />
@@ -515,24 +538,11 @@
       </method>
     </configuration>
     <configuration name="Test002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.meredith.day19.Test002" />
+      <option name="MAIN_CLASS_NAME" value="cn.meredith.day22.mybatis.Test002" />
       <module name="thread_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.meredith.day19.spring.ext.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.meredith.day19.Test003" />
-      <module name="thread_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.meredith.day19.spring.ext.*" />
+          <option name="PATTERN" value="cn.meredith.day22.mybatis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -692,15 +702,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test002" />
-      <item itemvalue="Application.Test003" />
       <item itemvalue="Application.Test001 (1)" />
       <item itemvalue="Application.Test005" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
       <item itemvalue="Application.Test001 (2)" />
+      <item itemvalue="Application.JdbcTest" />
+      <item itemvalue="Application.Test002" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test002" />
+        <item itemvalue="Application.JdbcTest" />
         <item itemvalue="Application.Test001 (2)" />
         <item itemvalue="Application.Test005" />
         <item itemvalue="Application.Test001 (1)" />
@@ -739,12 +751,14 @@
       <workItem from="1595301128725" duration="13856000" />
       <workItem from="1595383751698" duration="23981000" />
       <workItem from="1595470569787" duration="16576000" />
-      <workItem from="1595555689873" duration="9750000" />
+      <workItem from="1595555689873" duration="12488000" />
+      <workItem from="1595640322780" duration="5548000" />
+      <workItem from="1595814380805" duration="13452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286788000" />
+    <option name="totallyTimeSpent" value="308526000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -756,10 +770,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="764" y="0" width="1174" height="1087" extended-state="0" />
+    <frame x="813" y="0" width="1120" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13285458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17169811" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -769,18 +783,18 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22875132" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49215245" visible="true" weight="0.3095488" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28586277" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49215245" weight="0.3231899" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2854145" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843652" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32843652" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22980063" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22875132" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50784755" side_tool="true" weight="0.23819517" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49327356" weight="0.32423925" />
-      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.31600833" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3158447" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32843652" />
       <window_info anchor="bottom" id="Spring" order="15" weight="0.32843652" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -889,152 +903,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/service/UserService1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day18/service/impl/UserServiceImpl1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE.jar!/org/springframework/stereotype/Service.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day19/spring/ext/ExtClassPathXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="81" column="3" lean-forward="true" selection-start-line="81" selection-start-column="3" selection-end-line="90" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_02.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day19/Test003.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day19/Test002.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day19/Test001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day19/Test004.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day17/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day19/spring/extannotation/ExtService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day19/spring/extannotation/ExtResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day19/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day19/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day19/service/impl/UserService3Impl3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day19/spring/ext/ExtClassPathXmlApplicationContext1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webapp/index.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/webapp/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/webapp/index.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day19/Test005.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1194,6 +1062,27 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/ConnectionPoolManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1792">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/ConnectionPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1201,120 +1090,205 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/ConnectionPoolManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/ConnectionPoolImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="1736">
           <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#264#276#0" expanded="true" />
-            <element signature="e#357#369#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://E:/JAVA SE/jdk1.8.0_191/src.zip!/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="5712">
           <caret line="235" column="29" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="104" column="36" lean-forward="true" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="91" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day21/connection/DbBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
-          <folding>
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1514#1515#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
-            <element signature="e#1661#1662#0" expanded="true" />
-            <element signature="e#1698#1699#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-            <element signature="e#1846#1847#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
-            <element signature="e#1943#1944#0" expanded="true" />
-            <element signature="e#1997#1998#0" expanded="true" />
-            <element signature="e#2033#2034#0" expanded="true" />
-            <element signature="e#2067#2068#0" expanded="true" />
-            <element signature="e#2119#2120#0" expanded="true" />
-            <element signature="e#2165#2166#0" expanded="true" />
-            <element signature="e#2209#2210#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-            <element signature="e#2321#2322#0" expanded="true" />
-            <element signature="e#2385#2386#0" expanded="true" />
-            <element signature="e#2427#2428#0" expanded="true" />
-            <element signature="e#2467#2468#0" expanded="true" />
-            <element signature="e#2531#2532#0" expanded="true" />
-            <element signature="e#2589#2590#0" expanded="true" />
-          </folding>
+          <caret line="14" column="77" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day21/Test001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="41" />
+        <state relative-caret-position="34">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#294#306#0" expanded="true" />
-            <element signature="e#403#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3668">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/JdbcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/Test001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/sql/SqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/annotation/ExtParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/annotation/ExtInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/annotation/ExtSelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar!/com/mysql/cj/jdbc/AbandonedConnectionCleanupThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar!/com/mysql/cj/jdbc/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/util/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar!/com/mysql/cj/jdbc/NonRegisteringDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#3534#3535#0" expanded="true" />
+            <element signature="e#3582#3583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar!/com/mysql/cj/conf/ConnectionUrl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.21/mysql-connector-java-8.0.21.jar!/com/mysql/cj/jdbc/result/ResultSetImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="1734" selection-start-line="1734" selection-end-line="1734" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/util/SQLUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA SE/jdk1.8.0_191/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="947" column="40" selection-start-line="947" selection-start-column="40" selection-end-line="947" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/Test002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/aop/MyInvocationHandlerMybatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="89" column="35" lean-forward="true" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/meredith/day22/mybatis/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
