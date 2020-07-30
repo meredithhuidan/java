@@ -5,7 +5,7 @@ import java.util.LinkedList;
 /**
  * 基于LinkedList实现hashmap集合
  * jdk1.7时，hashmap使用数组+链表实现
- * <p>
+ *
  * 使用hash算法存储  提高效率，直接获取
  * 问题：hashcode碰撞冲突
  * 解决：链表技术 数组的每个元素存放一个链表
@@ -13,7 +13,6 @@ import java.util.LinkedList;
  * @author Meredith
  * @date
  */
-@SuppressWarnings("")
 public class ExtLinkedListHashMap {
 
     //tables 存放数据元素的 Map存放Entry对象
