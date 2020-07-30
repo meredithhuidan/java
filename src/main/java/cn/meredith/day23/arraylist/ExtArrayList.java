@@ -59,7 +59,6 @@ public class ExtArrayList<E> implements ExtList<E> {
 
     public void add(int index, Object object) {
         ensureExplicitCapacity(size + 1);
-        ;
         System.arraycopy(elementData, index, elementData, index + 1, 1);
         elementData[index] = object;
         size++;
